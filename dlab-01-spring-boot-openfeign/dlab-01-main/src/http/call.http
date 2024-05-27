@@ -1,0 +1,13 @@
+### masterCall
+GET http://localhost:8000/business/correct
+
+### slaveCall
+GET http://localhost:8001/business/correct
+
+<> 2024-05-23T094900.404.json
+
+### masterCall feign
+POST http://localhost:8000/api/correct
+
+<> 2024-05-23T094934.400.json
+<> 2024-05-23T094910.400.json

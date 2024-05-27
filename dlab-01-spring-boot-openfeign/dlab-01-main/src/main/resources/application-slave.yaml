@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: slave
+server:
+  port: 8001
+  mode: slave
+  master:
+    url: http://localhost:8000
+
+
